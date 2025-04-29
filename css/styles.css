@@ -454,9 +454,6 @@ body {
 .footer .container {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-
-  gap: 40px;
 }
 
 .footer-content {
