@@ -447,22 +447,16 @@ body {
 /* page footer */
 .footer {
   background-color: #2e2f42;
-  padding: 80px 0;
   padding: 100px 0;
 }
 
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-  flex-wrap: wrap;
+.footer-logo-text {
+  margin-right: 120px;
 }
 
 /* logo */
@@ -492,6 +486,7 @@ body {
   margin-bottom: 16px;
 }
 
+/* Styles for the footer social media header */
 .footer-socials-title {
   font-weight: 500;
   font-size: 16px;
@@ -501,20 +496,19 @@ body {
   margin-bottom: 16px;
 }
 
-/* Social icons */
+/* Styles for the footer social icon list */
 .footer-socials-list {
   display: flex;
-  justify-content: flex-start;
   gap: 16px;
-  padding: 0;
-  list-style: none;
 }
 
+/* Styles for footer social media list items */
 .footer-socials-item {
   width: 40px;
   height: 40px;
 }
 
+/* Styles for footer social media links */
 .footer-socials-link {
   display: flex;
   align-items: center;
@@ -526,11 +520,13 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Hover and focus styles on footer social media links */
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: #31d0aa;
 }
 
+/* Styles for footer social media icons */
 .footer-socials-icon {
   fill: #f4f4fd;
 }
